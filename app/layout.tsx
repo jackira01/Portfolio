@@ -1,8 +1,5 @@
 import 'tailwindcss/tailwind.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Portfolio',
@@ -17,7 +14,7 @@ export default function RootLayout({
   return (
     <html className='dark' lang='es'>
       <body
-        className={`bg-gradient-to-r from-color-four via-color-three to-color-two dark:bg-gradient-to-r dark:from-color-one dark:via-color-two dark:to-color-three ${inter.className}`}
+        className={`bg-gradient-to-r from-color-four via-color-three to-color-two dark:bg-gradient-to-r dark:from-color-one dark:via-color-two dark:to-color-three`}
       >
         {children}
       </body>
