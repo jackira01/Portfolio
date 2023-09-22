@@ -1,10 +1,8 @@
 'use client';
 
+import Image from 'next/image';
 import { useState } from 'react';
-
-import '@fortawesome/fontawesome-svg-core/styles.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+import { moonIcon, sunIcon } from '../imagesImports/ImageImport';
 
 export default function ButtonDark() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -18,19 +16,14 @@ export default function ButtonDark() {
   return (
     <div className='relative flex justify-center items-center'>
       {showIcon ? (
-        <FontAwesomeIcon
-          icon={faSun}
-          className='relative duration-500 ease-in-out'
-          size='4x'
+        <Image
+          width={50}
+          src={moonIcon}
+          alt='moon-icon'
           onClick={getClassDark}
         />
       ) : (
-        <FontAwesomeIcon
-          icon={faMoon}
-          className='relative duration-500 ease-in-out'
-          size='4x'
-          onClick={getClassDark}
-        />
+        <Image width={50} src={sunIcon} alt='sun-icon' onClick={getClassDark} />
       )}
     </div>
   );

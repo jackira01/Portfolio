@@ -1,9 +1,6 @@
 import Image from 'next/image';
 import { inconsolata, playfairdisplay } from './font';
 
-import '@fortawesome/fontawesome-svg-core/styles.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import {
   boostrapIcon,
   githubIcon,
@@ -16,7 +13,7 @@ import {
   sqlIcon,
   tailwindcssIcon,
 } from '@/components/imagesImports/ImageImport';
-import ButtonDark from '@/components/ButtonDark';
+import ButtonDark from '@/components/ButtonDark/ButtonDark';
 
 export default function Home() {
   return (

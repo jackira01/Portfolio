@@ -8,6 +8,8 @@ import mongodbIcon from '@/public/img/mongodb.svg';
 import tailwindcssIcon from '@/public/img/tailwindcss.svg';
 import reduxIcon from '@/public/img/redux.svg';
 import githubIcon from '@/public/img/github.svg';
+import moonIcon from '@/public/img/moon.svg';
+import sunIcon from '@/public/img/sun.svg';
 
 export {
   profileIcon,
@@ -20,4 +22,6 @@ export {
   tailwindcssIcon,
   reduxIcon,
   githubIcon,
+  moonIcon,
+  sunIcon
 };
