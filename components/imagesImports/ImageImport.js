@@ -10,6 +10,11 @@ import reduxIcon from '@/public/img/redux.svg';
 import githubIcon from '@/public/img/github.svg';
 import moonIcon from '@/public/img/moon.svg';
 import sunIcon from '@/public/img/sun.svg';
+import leftIcon from '@/public/img/left.svg';
+import rightIcon from '@/public/img/right.svg';
+import hbuyBg from '@/public/img/hbuy.png';
+import tallersagBg from '@/public/img/tallersag.png';
+import notesappBg from '@/public/img/yournotes.png';
 
 export {
   profileIcon,
@@ -23,5 +28,10 @@ export {
   reduxIcon,
   githubIcon,
   moonIcon,
-  sunIcon
+  sunIcon,
+  leftIcon,
+  rightIcon,
+  hbuyBg,
+  tallersagBg,
+  notesappBg,
 };

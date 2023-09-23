@@ -14,6 +14,7 @@ import {
   tailwindcssIcon,
 } from '@/components/imagesImports/ImageImport';
 import ButtonDark from '@/components/ButtonDark/ButtonDark';
+import Carrousel from '@/components/ModalProjects/Carrousel';
 
 export default function Home() {
   return (
@@ -72,9 +73,7 @@ export default function Home() {
         <Image className='m-2' width={50} src={githubIcon} alt='github-icon' />
       </div>
 
-      <div className='bg-color-five col-start-2 col-span-2 rounded-2xl'>
-        Projects
-      </div>
+      <div className='bg-color-five col-start-2 col-span-2 rounded-2xl'></div>
 
       <div className='bg-color-five col-span-2 rounded-2xl'>Content</div>
     </section>
