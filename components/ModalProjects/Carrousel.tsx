@@ -1,8 +1,7 @@
-'use client';
 import { useState } from 'react';
-
 import Image from 'next/image';
 import { leftIcon, rightIcon } from '../imagesImports/ImageImport';
+import DescriptionModal from './DescriptionModal';
 
 export default function Carrousel() {
   const [currentIndex, setCurrentIndex] = useState(1);
@@ -10,15 +9,23 @@ export default function Carrousel() {
   const slides = [
     {
       url: 'https://i.postimg.cc/8PHD9q3P/hbuy.png',
+      title: 'proyecto 1',
+      descrition: 'descripcion 1',
     },
     {
       url: 'https://i.postimg.cc/qqwYDd7P/tallersag.png',
+      title: 'proyecto 2',
+      descrition: 'descripcion 2',
     },
     {
       url: 'https://i.postimg.cc/RFQbqzwW/pokedex.png',
+      title: 'proyecto 3',
+      descrition: 'descripcion 3',
     },
     {
       url: 'https://i.postimg.cc/J0rYkdQP/yournotes.png',
+      title: 'proyecto 4',
+      descrition: 'descripcion 4',
     },
   ];
 
@@ -35,7 +42,7 @@ export default function Carrousel() {
   };
 
   return (
-    <div className='w-full h-[24rem] relative'>
+    <div className='w-full h-full relative'>
       <div
         style={{
           backgroundImage: `url(${slides[currentIndex].url})`,
@@ -47,7 +54,7 @@ export default function Carrousel() {
           className='m-2 bg-gray-500/30 rounded-full absolute top-[45%] -translate-x-0 translate-y-[%50] left-5 cursor-pointer'
           width={50}
           src={leftIcon}
-          alt='javascript-icon'
+          alt='left-icon'
           onClick={previewSlide}
         />
       </div>
@@ -56,10 +63,14 @@ export default function Carrousel() {
           className='m-2 bg-gray-500/30 rounded-full absolute top-[45%] -translate-x1 translate-y-[%50] right-5 cursor-pointer'
           width={50}
           src={rightIcon}
-          alt='javascript-icon'
+          alt='right-icon'
           onClick={nextSlide}
         />
       </div>
+      <DescriptionModal
+        title={`${slides[currentIndex].title}`}
+        description={`${slides[currentIndex].descrition}`}
+      />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { moonIcon, sunIcon } from '../imagesImports/ImageImport';
 
 export default function ButtonDark() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
   const [showIcon, setShowIcon] = useState(true);
 
   const getClassDark = () => {

@@ -1,5 +1,3 @@
-import ModalProject from '@/components/ModalProjects/ModalProjects';
-
 export default function Example() {
-  return <ModalProject />;
+  return <div className='flex justify-center items-center'></div>;
 }

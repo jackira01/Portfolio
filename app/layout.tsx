@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html className='dark' lang='es'>
       <body
-        className={`bg-gradient-to-r from-color-four via-color-three to-color-two dark:bg-gradient-to-r dark:from-color-one dark:via-color-two dark:to-color-three`}
+        className={`bg-gradient-to-r from-color-three via-color-two to-color-three dark:bg-gradient-to-r dark:from-color-one dark:via-color-three dark:to-color-one`}
       >
         {children}
       </body>

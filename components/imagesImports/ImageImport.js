@@ -15,6 +15,10 @@ import rightIcon from '@/public/img/right.svg';
 import hbuyBg from '@/public/img/hbuy.png';
 import tallersagBg from '@/public/img/tallersag.png';
 import notesappBg from '@/public/img/yournotes.png';
+import arrowupIcon from '@/public/img/angle-up.svg';
+import nextIcon from '@/public/img/next.svg';
+import slackIcon from '@/public/img/slack.svg';
+import postgresqlIcon from '@/public/img/postgresql.svg';
 
 export {
   profileIcon,
@@ -34,4 +38,8 @@ export {
   hbuyBg,
   tallersagBg,
   notesappBg,
+  arrowupIcon,
+  nextIcon,
+  slackIcon,
+  postgresqlIcon,
 };
