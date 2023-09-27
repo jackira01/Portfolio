@@ -19,6 +19,10 @@ import arrowupIcon from '@/public/img/angle-up.svg';
 import nextIcon from '@/public/img/next.svg';
 import slackIcon from '@/public/img/slack.svg';
 import postgresqlIcon from '@/public/img/postgresql.svg';
+import phoneIcon from '@/public/img/phone.svg';
+import gmailIcon from '@/public/img/gmail.svg';
+import linkedinIcon from '@/public/img/linkedin.svg';
+import filepdfIcon from '@/public/img/file-pdf.svg';
 
 export {
   profileIcon,
@@ -42,4 +46,8 @@ export {
   nextIcon,
   slackIcon,
   postgresqlIcon,
+  phoneIcon,
+  gmailIcon,
+  linkedinIcon,
+  filepdfIcon
 };

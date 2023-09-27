@@ -20,6 +20,8 @@ const config: Config = {
         'color-three': '#6b096c ',
         'color-four': '#5A189A',
         'color-five': '#69096b',
+        'dark-home': "#00002e",
+        'color-purple': '#340069'
       },
     },
   },

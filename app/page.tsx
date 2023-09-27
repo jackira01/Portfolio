@@ -1,118 +1,43 @@
-import Image from 'next/image';
-import { inconsolata, playfairdisplay } from './font';
 import './styles.css';
-import {
-  boostrapIcon,
-  githubIcon,
-  javascriptIcon,
-  mongodbIcon,
-  nodeIcon,
-  profileIcon,
-  reactIcon,
-  reduxIcon,
-  sqlIcon,
-  tailwindcssIcon,
-  nextIcon,
-  slackIcon,
-  postgresqlIcon,
-} from '@/components/imagesImports/ImageImport';
-import ButtonDark from '@/components/ButtonDark/ButtonDark';
-import ModalProject from '@/components/ModalProjects/ModalProjects';
+import Carrousel from '@/components/ModalProjects/Carrousel';
+import Skills from '@/components/Skills/Skills';
+import ContactMe from '@/components/ContactMe/ContactMe';
+import SoftSkills from '@/components/SoftSkills/SoftSkills';
+import Profile from '@/components/Profile/Profile';
+import AboutMe from '@/components/AboutMe/AboutMe';
+import CvDowload from '@/components/CvDowload/CvDowload';
 
 export default function Home() {
   return (
     <>
-      <section className='h-screen grid sm:mx-80 sm:mt-8 mx-5 grid-flow-col grid-rows-4 grid-cols-3 md:gap-6 gap-3 text-center'>
-        <div className='flex items-center justify-center bg-color-five col-span-2 shadow-xl rounded-xl'>
-          <div className='mr-10'>
-            <Image src={profileIcon} width={110} height={110} alt='profile' />
-          </div>
-          <div>
-            <h1
-              className={`text-center text-indigo-950 text-4xl font-bold ${inconsolata.className}`}
-            >
-              jhoan Alvarez
-            </h1>
-            <span className={playfairdisplay.className}>
-              Desarrollador Web JavaScript
-            </span>
-          </div>
+      <section className='grid h-screen grid-cols-4 grid-rows-4 gap-3 mx-5 text-center sm:py-5 sm:mx-60 md:gap-7'>
+        <div className='flex items-center justify-center col-span-2 col-start-2 row-start-2 rounded-xl bg-opacity-30 '>
+          <Profile/>
         </div>
 
-        <div className='col-start-3 grid grid-rows-2 grid-cols-2 gap-3'>
-          <div className='bg-color-five rounded-xl flex justify-center items-center col-start-2'>
-            <ButtonDark />
-          </div>
-
-          <div className='bg-color-five rounded-xl flex flex-col justify-center items-center col-start-2'>
-            <span>anos</span>
-            <h1
-              className={`text-center text-white text-3xl font-bold ${inconsolata.className}`}
-            >
-              20
-            </h1>
-          </div>
-
-          <div className='bg-color-five rounded-xl flex justify-center items-center row-start-1 flex-col'>
-            <span>nivel de ingles</span>
-            <h1
-              className={`text-center text-white text-3xl font-bold ${inconsolata.className}`}
-            >
-              A2
-            </h1>
-          </div>
+        <div className='flex items-center justify-center col-span-2 row-start-1 shadow-2xl bg-color-purple rounded-xl bg-opacity-30'>
+          <AboutMe />
         </div>
 
-        <div className='bg-color-five row-start-2 rounded-xl'>contact me</div>
-
-        <div className='bg-color-five row-start-3 row-span-2 rounded-xl flex flex-wrap justify-evenly'>
-          <Image
-            className='m-3'
-            width={40}
-            src={javascriptIcon}
-            alt='javascript-icon'
-          />
-          <Image className='m-3' width={40} src={reactIcon} alt='react-icon' />
-          <Image className='m-3' width={40} src={nextIcon} alt='node-icon' />
-          <Image
-            className='m-3'
-            width={40}
-            src={tailwindcssIcon}
-            alt='tailwind-icon'
-          />
-          <Image
-            className='m-3'
-            width={40}
-            src={boostrapIcon}
-            alt='boostrap-icon'
-          />
-          <Image className='m-3' width={40} src={nodeIcon} alt='node-icon' />
-          <Image className='m-3' width={40} src={reduxIcon} alt='redux-icon' />
-          <Image
-            className='m-3'
-            width={40}
-            src={postgresqlIcon}
-            alt='redux-icon'
-          />
-          <Image className='m-3' width={40} src={sqlIcon} alt='sql-icon' />
-          <Image
-            className='m-3'
-            width={40}
-            src={mongodbIcon}
-            alt='mongodb-icon'
-          />
-          <Image
-            className='m-3'
-            width={40}
-            src={githubIcon}
-            alt='github-icon'
-          />
-          <Image className='m-3' width={40} src={slackIcon} alt='sql-icon' />
+        <div className='grid grid-cols-2 col-start-4 grid-rows-2 gap-3 rounded-xl'>
+          <SoftSkills />
         </div>
 
-        <ModalProject />
+        <div className='flex flex-col justify-center row-start-2 shadow-xl bg-color-purple bg-opacity-30 rounded-xl'>
+          <ContactMe />
+        </div>
 
-        <div className='bg-color-five col-start-2 rounded-xl'>Content</div>
+        <div className='flex flex-wrap col-start-4 row-span-2 row-start-2 shadow-xl bg-color-purple justify-evenly bg-opacity-30 rounded-xl'>
+          <Skills />
+        </div>
+
+        <div className='col-span-3 row-span-2 row-start-3 shadow-xl bg-color-purple bg-opacity-30 rounded-xl'>
+          <Carrousel/>
+        </div>
+
+        <div className='flex items-center justify-center w-full h-full row-start-4 transition bg-black rounded-xl '>
+          <CvDowload />
+        </div>
       </section>
     </>
   );

@@ -1,3 +1,5 @@
+import LocalDate from '@/components/LocalDate/LocalDate';
+
 export default function Example() {
-  return <div className='flex justify-center items-center'></div>;
+  return <LocalDate />;
 }
