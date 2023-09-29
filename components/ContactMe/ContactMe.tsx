@@ -9,7 +9,7 @@ export default function ContactMe() {
     <>
       <div>
         <h1
-          className={`text-xl text-cyan-50 font-bold pb-5 ${inconsolata.className}`}
+          className={`select-none text-xl text-cyan-50 font-bold pb-5 ${inconsolata.className}`}
         >
           Contactame
         </h1>

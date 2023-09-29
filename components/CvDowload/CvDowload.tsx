@@ -1,11 +1,12 @@
 export default function CvDowload() {
   return (
-    <div className='flex flex-col items-center justify-center align-middle '>
+    <div className='flex flex-col items-center justify-center align-middle select-none'>
       <div>
         <a
-          href='http://www.w3.org/2000/svg'
+          href="https://www.docdroid.net/file/download/gnmui0U/jhoan-nicolas-beru-pdf.pdf"
           download
-          className=' group-hover:bg-opacity-50 items-center cursor-pointer group relative flex flex-col gap-1.5  bg-black bg-opacity-80 text-[#f1f1f1] rounded-3xl hover:bg-opacity-70 transition font-semibold shadow-md'
+          target="blank"
+          className=' group-hover:bg-opacity-50 items-center cursor-pointer group relative flex flex-col gap-1.5 bg-opacity-80 text-white rounded-3xl hover:bg-opacity-70 transition font-semibold '
         >
           <svg
             xmlns='http://www.w3.org/2000/svg'

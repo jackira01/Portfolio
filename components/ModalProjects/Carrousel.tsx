@@ -52,14 +52,14 @@ export default function Carrousel() {
   };
 
   return (
-    <div className='relative w-full h-full overflow-hidden duration-700 group-hover:blur-sm group text-gray-50 rounded-2xl '>
+    <div className='relative w-full h-full overflow-hidden duration-700 select-none group-hover:blur-sm group text-gray-50 rounded-2xl '>
       <div
         className='absolute inset-0 duration-500 bg-center bg-cover blur-0 group-hover:blur-sm'
         style={{
           backgroundImage: `url(${slides[currentIndex].img})`,
         }}
       />
-      <div className='absolute flex flex-col w-full h-40 gap-1 p-3 duration-500 bg-black/60 -bottom-20 group-hover:-bottom-0 group-hover:duration-600'>
+      <div className='absolute flex flex-col w-full h-48 gap-1 p-3 duration-500 bg-black/60 sm:h-40 -bottom-20 group-hover:-bottom-0 group-hover:duration-600'>
         <div className='flex items-center justify-center'>
           <h1
             className={`text-2xl font-semibold text-white ${inconsolata.className}`}

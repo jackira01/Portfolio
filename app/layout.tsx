@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html className='dark' lang='es'>
       <body
-        className={`bg-dark-home dark:bg-gradient-to-r dark:from-color-one dark:via-color-three dark:to-color-one`}
+        className={` h-screen flex sm:items-center sm:justify-center bg-color-bg-light dark:bg-color-bg-dark`}
       >
         {children}
       </body>
