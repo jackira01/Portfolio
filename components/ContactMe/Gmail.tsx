@@ -3,8 +3,8 @@ export default function Gmail() {
     <div className='relative group'>
       
         <svg
-          className='duration-200 hover:scale-125'
-          width={40}
+          className='w-12 duration-200 hover:scale-125'
+          
           viewBox='0 0 32 32'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'

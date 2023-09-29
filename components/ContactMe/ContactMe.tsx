@@ -22,10 +22,9 @@ export default function ContactMe() {
           href='https://www.linkedin.com/in/jhoan-nicolas-beru-alvarez-a30a61210/'
         >
           <Image
-            className='duration-200 hover:scale-125'
+            className='w-12 duration-200 hover:scale-125'
             src={linkedinIcon}
             alt='linkedin'
-            width={40}
           />
         </a>
 
