@@ -6,13 +6,18 @@ import SoftSkills from '@/components/SoftSkills/SoftSkills';
 import Profile from '@/components/Profile/Profile';
 import AboutMe from '@/components/AboutMe/AboutMe';
 import CvDowload from '@/components/CvDowload/CvDowload';
+import Filosofy from '@/components/Filosofy/Filosofy';
 
 export default function Home() {
   return (
     <>
       <section className='grid h-screen grid-cols-4 grid-rows-4 gap-3 mx-5 text-center sm:py-5 sm:mx-60 md:gap-7'>
         <div className='flex items-center justify-center col-span-2 col-start-2 row-start-2 rounded-xl bg-opacity-30 '>
-          <Profile/>
+          <Profile />
+        </div>
+
+        <div className='col-start-3 shadow-2xl bg-color-purple rounded-xl bg-opacity-30'>
+          <Filosofy />
         </div>
 
         <div className='flex items-center justify-center col-span-2 row-start-1 shadow-2xl bg-color-purple rounded-xl bg-opacity-30'>
@@ -32,7 +37,7 @@ export default function Home() {
         </div>
 
         <div className='col-span-3 row-span-2 row-start-3 shadow-xl bg-color-purple bg-opacity-30 rounded-xl'>
-          <Carrousel/>
+          <Carrousel />
         </div>
 
         <div className='flex items-center justify-center w-full h-full row-start-4 transition bg-black rounded-xl '>

@@ -14,10 +14,10 @@ export default function ButtonDark() {
     document.documentElement.classList.toggle('dark');
   };
   return (
-    <div className='relative flex justify-center items-center'>
+    <div className='relative flex items-center justify-center'>
       {showIcon ? (
         <Image
-          width={40}
+          width={50}
           src={moonIcon}
           alt='moon-icon'
           onClick={getClassDark}

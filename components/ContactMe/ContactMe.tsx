@@ -1,10 +1,8 @@
 import Image from 'next/image';
 import { inconsolata } from '@/app/font';
-import {
-  gmailIcon,
-  linkedinIcon,
-  phoneIcon,
-} from '../imagesImports/ImageImport';
+import { linkedinIcon } from '../imagesImports/ImageImport';
+import Phone from './Phone';
+import Gmail from './Gmail';
 
 export default function ContactMe() {
   return (
@@ -17,9 +15,21 @@ export default function ContactMe() {
         </h1>
       </div>
       <div className='flex flex-row justify-evenly'>
-        <Image className='duration-200 hover:scale-125' src={gmailIcon} alt='gmail' width={40} />
-        <Image className='duration-200 hover:scale-125' src={linkedinIcon} alt='linkedin' width={40} />
-        <Image className='duration-200 hover:scale-125' src={phoneIcon} alt='phone' width={40} />
+        <Gmail />
+
+        <a
+          target='blank'
+          href='https://www.linkedin.com/in/jhoan-nicolas-beru-alvarez-a30a61210/'
+        >
+          <Image
+            className='duration-200 hover:scale-125'
+            src={linkedinIcon}
+            alt='linkedin'
+            width={40}
+          />
+        </a>
+
+        <Phone />
       </div>
     </>
   );

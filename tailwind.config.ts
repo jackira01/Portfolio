@@ -9,10 +9,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      keyframes: {
+        typing: {
+          '0%': { width: '0' },
+        },
+        blink: {
+          '50%': {
+            borderColor: 'transparent',
+          },
+        },
+      },
+      animation: {
+        typing: 'typing 4s steps(33), blink 1s infinite step-end alternate',
       },
       colors: {
         'color-one': '#10002B',
@@ -20,11 +28,12 @@ const config: Config = {
         'color-three': '#6b096c ',
         'color-four': '#5A189A',
         'color-five': '#69096b',
-        'dark-home': "#00002e",
-        'color-purple': '#340069'
+        'dark-home': '#00002e',
+        'color-purple': '#340069',
       },
     },
   },
   plugins: [],
 };
+
 export default config;

@@ -5,12 +5,14 @@ import LocalDate from '../LocalDate/LocalDate';
 export default function SoftSkills() {
   return (
     <>
-      <div className='flex items-center justify-center col-start-2 bg-color-purple rounded-xl'>
+      <div className='flex items-center justify-center col-start-2 bg-color-purple bg-opacity-30 rounded-xl'>
         <ButtonDark />
       </div>
 
-      <div className='flex flex-col items-center justify-center col-start-2 bg-color-purple rounded-xl'>
-        <span className={`text-xl font-bold text-gray-500 ${inconsolata.className}`}>
+      <div className='flex flex-col items-center justify-center col-start-2 bg-color-purple bg-opacity-30 rounded-xl'>
+        <span
+          className={`text-xl font-bold text-gray-500 ${inconsolata.className}`}
+        >
           Años
         </span>
         <h1
@@ -20,8 +22,10 @@ export default function SoftSkills() {
         </h1>
       </div>
 
-      <div className='flex flex-col items-center justify-center row-start-2 bg-color-purple rounded-xl'>
-        <span className={`text-xl font-bold text-gray-500 ${inconsolata.className}`}>
+      <div className='flex flex-col items-center justify-center row-start-2 bg-color-purple bg-opacity-30 rounded-xl'>
+        <span
+          className={`text-xl font-bold text-gray-500 ${inconsolata.className}`}
+        >
           Ingles
         </span>
         <h1
@@ -31,7 +35,7 @@ export default function SoftSkills() {
         </h1>
       </div>
 
-      <div className='flex flex-col items-center justify-center row-start-1 bg-color-purple rounded-xl'>
+      <div className='flex flex-col items-center justify-center row-start-1 bg-color-purple bg-opacity-30 rounded-xl'>
         <LocalDate />
       </div>
     </>

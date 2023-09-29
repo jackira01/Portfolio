@@ -25,7 +25,7 @@ export default function LocalDate() {
   return (
     <>
       <h1 className={`text-xl font-bold text-gray-500 ${inconsolata.className}`}>COL</h1>
-      <p className={`text-white font-bold text-xl ${inconsolata.className}`}>{time}</p>
+      <p className={`text-white font-bold text-2xl ${inconsolata.className}`}>{time}</p>
     </>
   );
 }
