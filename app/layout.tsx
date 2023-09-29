@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html className='dark' lang='es'>
       <body
-        className={` h-screen flex sm:items-center sm:justify-center bg-color-bg-light dark:bg-color-bg-dark`}
+        className={` h-screen flex sm:items-center sm:justify-center bg-color-bg-light dark:bg-color-bg-dark transition`}
       >
         {children}
       </body>

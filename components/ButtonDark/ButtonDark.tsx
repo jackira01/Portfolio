@@ -17,14 +17,14 @@ export default function ButtonDark() {
     <div className='relative flex items-center justify-center'>
       {showIcon ? (
         <Image
-          className='w-12 cursor-pointer animate-spin-moon '
+          className='w-12 transition cursor-pointer animate-spin-moon'
           src={moonIcon}
           alt='moon-icon'
           onClick={getClassDark}
         />
       ) : (
         <Image
-          className='w-12 duration-500 cursor-pointer animate-spin-sun'
+          className='w-12 transition duration-500 cursor-pointer animate-spin-sun'
           src={sunIcon}
           alt='sun-icon'
           onClick={getClassDark}

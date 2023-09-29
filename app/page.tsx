@@ -16,27 +16,27 @@ export default function Home() {
           <Profile />
         </div>
 
-        <div className='col-span-4 col-start-1 row-start-7 shadow-2xl sm:col-span-1 sm:row-start-1 sm:col-start-3 bg-color-four-light dark:bg-color-two rounded-xl '>
+        <div className='col-span-4 col-start-1 row-start-7 transition shadow-2xl sm:col-span-1 sm:row-start-1 sm:col-start-3 bg-color-four-light dark:bg-color-two rounded-xl '>
           <Filosofy />
         </div>
 
-        <div className='flex items-center justify-center col-span-4 row-start-6 shadow-2xl sm:h-auto h-52 sm:col-span-2 sm:row-start-1 bg-color-two-light dark:bg-color-one rounded-xl '>
+        <div className='flex items-center justify-center col-span-4 row-start-6 transition shadow-2xl sm:h-auto h-52 sm:col-span-2 sm:row-start-1 bg-color-two-light dark:bg-color-one rounded-xl '>
           <AboutMe />
         </div>
 
-        <div className='grid h-48 grid-cols-2 col-span-4 grid-rows-2 gap-3 select-none sm:h-auto sm:col-span-1 sm:col-start-4 rounded-xl'>
+        <div className='grid h-48 grid-cols-2 col-span-4 grid-rows-2 gap-3 transition select-none sm:h-auto sm:col-span-1 sm:col-start-4 rounded-xl'>
           <SoftSkills />
         </div>
 
-        <div className='flex flex-col justify-center col-span-4 row-start-3 shadow-xl h-44 sm:h-auto sm:col-span-1 sm:row-start-2 bg-color-three-light dark:bg-color-three rounded-xl'>
+        <div className='flex flex-col justify-center col-span-4 row-start-3 transition shadow-xl h-44 sm:h-auto sm:col-span-1 sm:row-start-2 bg-color-three-light dark:bg-color-three rounded-xl'>
           <ContactMe />
         </div>
 
-        <div className='flex flex-wrap col-span-4 col-start-1 row-span-1 row-start-4 shadow-xl sm:col-span-1 sm:col-start-4 sm:row-span-2 sm:row-start-2 bg-color-one-light dark:bg-color-one justify-evenly rounded-xl'>
+        <div className='flex flex-wrap col-span-4 col-start-1 row-span-1 row-start-4 transition shadow-xl sm:col-span-1 sm:col-start-4 sm:row-span-2 sm:row-start-2 bg-color-one-light dark:bg-color-one justify-evenly rounded-xl'>
           <Skills />
         </div>
 
-        <div className='h-56 col-span-4 row-span-1 row-start-5 shadow-xl sm:h-auto sm:col-span-3 sm:row-span-2 sm:row-start-3 bg-color-one-light dark:bg-color-two rounded-xl'>
+        <div className='h-56 col-span-4 row-span-1 row-start-5 transition shadow-xl sm:h-auto sm:col-span-3 sm:row-span-2 sm:row-start-3 bg-color-one-light dark:bg-color-two rounded-xl'>
           <Carrousel />
         </div>
 
