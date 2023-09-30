@@ -6,10 +6,10 @@ import Gmail from './Gmail';
 
 export default function ContactMe() {
   return (
-    <>
+    <div className='flex flex-col justify-center'>
       <div>
         <h1
-          className={`select-none text-xl text-cyan-50 font-bold pb-5 ${inconsolata.className}`}
+          className={`select-none text-center text-xl text-cyan-50 font-bold pb-5 ${inconsolata.className}`}
         >
           Contactame
         </h1>
@@ -30,6 +30,6 @@ export default function ContactMe() {
 
         <Phone />
       </div>
-    </>
+    </div>
   );
 }
