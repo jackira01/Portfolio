@@ -1,4 +1,3 @@
-import './styles.css';
 import Carrousel from '@/components/ModalProjects/Carrousel';
 import Skills from '@/components/Skills/Skills';
 import ContactMe from '@/components/ContactMe/ContactMe';
@@ -39,7 +38,7 @@ export default function Home() {
           <Skills />
         </div>
 
-        <div className='h-56 col-span-4 row-span-1 row-start-5 transition shadow-xl lg:h-auto lg:col-span-3 lg:row-span-2 lg:row-start-3 bg-color-one-light dark:bg-color-two rounded-xl'>
+        <div className='h-56 col-span-4 row-span-1 row-start-5 transition shadow-xl lg:h-auto lg:col-span-3 lg:row-span-2 lg:row-start-3  rounded-xl'>
           <Carrousel />
         </div>
 
