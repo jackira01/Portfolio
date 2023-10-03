@@ -6,7 +6,7 @@ import Gmail from './Gmail';
 
 export default function ContactMe() {
   return (
-    <div className='flex flex-col justify-center'>
+    <div className='flex flex-col'>
       <div>
         <h1
           className={`select-none text-center text-xl mt-5 text-cyan-50 font-bold pb-5 ${inconsolata.className}`}
