@@ -5,7 +5,6 @@ import SoftSkills from '@/components/SoftSkills/SoftSkills';
 import Profile from '@/components/Profile/Profile';
 import AboutMe from '@/components/AboutMe/AboutMe';
 import CvDowload from '@/components/CvDowload/CvDowload';
-import Filosofy from '@/components/Filosofy/Filosofy';
 
 export default function Home() {
   return (
@@ -18,11 +17,7 @@ export default function Home() {
           <Profile />
         </div>
 
-        <div className='col-span-4 col-start-1 row-start-7 transition shadow-xl lg:col-span-1 lg:row-start-1 lg:col-start-3 bg-color-four-light dark:bg-color-two rounded-xl '>
-          <Filosofy />
-        </div>
-
-        <div className='flex items-center justify-center col-span-4 row-start-6 transition shadow-xl lg:h-auto h-52 lg:col-span-2 lg:row-start-1 bg-color-two-light dark:bg-color-one rounded-xl '>
+        <div className='flex items-center justify-center col-span-4 row-start-6 transition shadow-xl lg:h-auto h-52 lg:col-span-3 lg:row-start-1 bg-color-two-light dark:bg-color-one rounded-xl '>
           <AboutMe />
         </div>
 
@@ -38,7 +33,7 @@ export default function Home() {
           <Skills />
         </div>
 
-        <div className='h-56 col-span-4 row-span-1 row-start-5 transition shadow-xl lg:h-auto lg:col-span-3 lg:row-span-2 lg:row-start-3  rounded-xl'>
+        <div className='h-56 col-span-4 row-span-1 row-start-5 transition shadow-xl lg:h-auto lg:col-span-3 lg:row-span-2 lg:row-start-3 rounded-xl'>
           <Carrousel />
         </div>
 
