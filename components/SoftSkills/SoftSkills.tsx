@@ -1,6 +1,8 @@
 import ButtonDark from '../ButtonDark/ButtonDark';
 import { inconsolata } from '@/app/font';
 import LocalDate from '../LocalDate/LocalDate';
+import Image from 'next/image';
+import { linkIcon } from '../imagesImports/ImageImport';
 
 export default function SoftSkills() {
   return (
@@ -10,16 +12,13 @@ export default function SoftSkills() {
       </div>
 
       <div className='flex flex-col items-center justify-center col-start-2 transition bg-color-two-light dark:bg-color-two rounded-xl'>
-        <span
-          className={`text-xl font-bold text-white ${inconsolata.className}`}
-        >
-          Años
-        </span>
-        <h1
-          className={`text-center text-white text-2xl font-bold ${inconsolata.className}`}
-        >
-          20
-        </h1>
+        <a href='https://github.com/jackira01/Portfolio' target='blank'>
+          <Image
+            className='w-8 m-3 duration-200 cursor-pointer hover:scale-125'
+            src={linkIcon}
+            alt='javascript-icon'
+          />
+        </a>
       </div>
 
       <div className='flex flex-col items-center justify-center row-start-2 transition bg-color-three-light dark:bg-color-two rounded-xl'>

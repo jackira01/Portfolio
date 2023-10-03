@@ -20,6 +20,7 @@ import slackIcon from '@/public/img/slack.svg';
 import postgresqlIcon from '@/public/img/postgresql.svg';
 import linkedinIcon from '@/public/img/linkedin.svg';
 import filepdfIcon from '@/public/img/file-pdf.svg';
+import linkIcon from '@/public/img/link.svg';
 
 export {
   profileIcon,
@@ -44,4 +45,5 @@ export {
   postgresqlIcon,
   linkedinIcon,
   filepdfIcon,
+  linkIcon,
 };

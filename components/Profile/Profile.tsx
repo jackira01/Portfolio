@@ -13,7 +13,7 @@ export default function Profile() {
           alt='left-icon'
         />
         <p
-          className={`select-none text-amber-300 block animate-typing whitespace-nowrap overflow-hidden w-[33ch] ${inconsolata.className}`}
+          className={`select-none text-amber-300 block animate-typing whitespace-nowrap overflow-hidden w-[33ch] text-center ${inconsolata.className}`}
         >
           - Desarrollador Web JavaScript -
         </p>
