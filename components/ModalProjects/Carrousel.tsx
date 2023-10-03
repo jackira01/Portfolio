@@ -1,12 +1,12 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { inconsolata } from '@/app/font';
 import { leftIcon, rightIcon } from '../imagesImports/ImageImport';
 
 export default function Carrousel() {
-  const [currentIndex, setCurrentIndex] = useState(1);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const slides = [
     {
@@ -50,6 +50,12 @@ export default function Carrousel() {
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
   };
+
+  useEffect(() => {
+    const slideInterval = setTimeout(nextSlide, 8000);
+
+    return () => clearTimeout(slideInterval);
+  }, [currentIndex]);
 
   return (
     <div className='relative w-full h-full overflow-hidden duration-700 select-none group-hover:blur-sm group text-gray-50 rounded-2xl '>
