@@ -65,7 +65,7 @@ export default function Carrousel() {
           backgroundImage: `url(${slides[currentIndex].img})`,
         }}
       />
-      <div className='absolute flex flex-col w-full h-48 gap-1 p-3 duration-500 bg-black/60 sm:h-40 -bottom-20 group-hover:-bottom-0 group-hover:duration-600'>
+      <div className='absolute flex flex-col w-full h-48 gap-1 p-3 duration-500 bg-black/60 sm:h-48 -bottom-20 group-hover:-bottom-0 group-hover:duration-600'>
         <div className='flex items-center justify-center'>
           <h1
             className={`text-2xl font-semibold mr-4 text-white ${inconsolata.className}`}
