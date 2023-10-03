@@ -12,9 +12,13 @@ export default function SoftSkills() {
       </div>
 
       <div className='flex flex-col items-center justify-center col-start-2 transition bg-color-two-light dark:bg-color-two rounded-xl'>
-        <a href='https://github.com/jackira01/Portfolio' target='blank'>
+        <a
+          href='https://github.com/jackira01/Portfolio'
+          target='blank'
+          className='cursor-pointer group'
+        >
           <Image
-            className='w-8 m-3 duration-200 cursor-pointer hover:scale-125'
+            className='w-8 m-3 duration-200 group-hover:scale-125'
             src={linkIcon}
             alt='javascript-icon'
           />
