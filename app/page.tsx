@@ -10,14 +10,14 @@ export default function Home() {
   return (
     <>
       <section
-        className='w-[500px] h-[668px] m-auto grid grid-cols-4 gap-5 grid-rows-8
+        className='w-[500px] h-[668px] mx-auto my-4 grid grid-cols-4 gap-5 grid-rows-8
       lg:grid-cols-4 lg:grid-rows-4 lg:h-[700px] lg:w-[900px] '
       >
         <div className='flex items-center justify-center col-span-4 row-start-2 lg:col-span-2 lg:col-start-2 rounded-xl '>
           <Profile />
         </div>
 
-        <div className='flex items-center justify-center col-span-4 row-start-6 transition shadow-xl lg:h-auto h-52 lg:col-span-3 lg:row-start-1 bg-color-two-light dark:bg-color-one rounded-xl '>
+        <div className='flex items-center justify-center col-span-4 row-start-6 transition shadow-xl lg:h-auto h-72 lg:col-span-3 lg:row-start-1 bg-color-two-light dark:bg-color-one rounded-xl '>
           <AboutMe />
         </div>
 
@@ -33,7 +33,7 @@ export default function Home() {
           <Skills />
         </div>
 
-        <div className='h-56 col-span-4 row-span-1 row-start-5 transition shadow-xl lg:h-auto lg:col-span-3 lg:row-span-2 lg:row-start-3 rounded-xl'>
+        <div className='col-span-4 row-span-1 row-start-5 transition shadow-xl h-72 lg:h-auto lg:col-span-3 lg:row-span-2 lg:row-start-3 rounded-xl'>
           <Carrousel />
         </div>
 
