@@ -3,7 +3,18 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { inconsolata } from '@/app/font';
-import { leftIcon, rightIcon } from '../imagesImports/ImageImport';
+import {
+  boostrapIcon,
+  javascriptIcon,
+  leftIcon,
+  mongodbIcon,
+  nodeIcon,
+  postgresqlIcon,
+  reactIcon,
+  reduxIcon,
+  rightIcon,
+  tailwindcssIcon,
+} from '../imagesImports/ImageImport';
 
 export default function Carrousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -15,6 +26,14 @@ export default function Carrousel() {
       description:
         'Esta es una web desarrollada con el objetivo de ofrecer una variedad de productos a los usuarios para que puedan ver sus detalles, poder comprarlos entre otras funciones. • Algunas de mis tareas fueron agregar la autenticación de usuario y el historial de productos.',
       url: 'https://h-buy.netlify.app/',
+      technology: [
+        javascriptIcon,
+        reactIcon,
+        reduxIcon,
+        boostrapIcon,
+        mongodbIcon,
+        nodeIcon,
+      ],
     },
     {
       img: 'https://i.postimg.cc/qqwYDd7P/tallersag.png',
@@ -22,6 +41,14 @@ export default function Carrousel() {
       description:
         'Desarrollé con mi grupo de trabajo una aplicación web para una empresa conocida en su sector con el objetivo de que los clientes tengan la posibilidad de contactar e interactuar con la empresa desde la comodidad de sus casas.',
       url: 'https://moonlit-fenglisu-651d57.netlify.app/',
+      technology: [
+        javascriptIcon,
+        reactIcon,
+        reduxIcon,
+        tailwindcssIcon,
+        mongodbIcon,
+        nodeIcon,
+      ],
     },
     {
       img: 'https://i.postimg.cc/RFQbqzwW/pokedex.png',
@@ -29,6 +56,7 @@ export default function Carrousel() {
       description:
         'Desarrollé una aplicación que tenía como objetivo la creación de un Pokedex usando las tecnologías aprendidas en la cursada. • Desarrollo individual de un Pokedex manipulando el Front-End y Back-End. • Agregar funcionalidades y optimizaciones tales como CRUD, filtrados y cargado dinámico.',
       url: 'https://pi-pokedex.netlify.app/',
+      technology: [javascriptIcon, reactIcon, postgresqlIcon, nodeIcon],
     },
     {
       img: 'https://i.postimg.cc/J0rYkdQP/yournotes.png',
@@ -36,6 +64,7 @@ export default function Carrousel() {
       description:
         'Esta aplicación se desarrolló para que el usuario tenga la posibilidad de crear, eliminar, editar y ver sus notas sin esfuerzo. Sus datos se almacenarán de forma segura y su contraseña se cifrará para garantizar la máxima seguridad del usuario.',
       url: 'https://node-js-app-lvba.onrender.com/',
+      technology: [javascriptIcon, mongodbIcon, nodeIcon],
     },
   ];
 
@@ -57,6 +86,9 @@ export default function Carrousel() {
     return () => clearTimeout(slideInterval);
   }, [currentIndex]);
 
+  const classImage = 'w-8 m-3 duration-200 hover:scale-125';
+  const classDiv = 'relative group flex justify-center';
+
   return (
     <div className='relative w-full h-full overflow-hidden duration-700 select-none group-hover:blur-sm group text-gray-50 rounded-2xl '>
       <div
@@ -65,7 +97,7 @@ export default function Carrousel() {
           backgroundImage: `url(${slides[currentIndex].img})`,
         }}
       />
-      <div className='absolute flex flex-col w-full h-48 gap-1 p-3 text-center duration-500 bg-black/60 sm:h-48 -bottom-20 group-hover:-bottom-0 group-hover:duration-600'>
+      <div className='absolute flex flex-col w-full h-48 gap-1 p-3 text-center duration-500 bg-black/60 sm:h-52 -bottom-40 group-hover:bottom-0 group-hover:duration-600'>
         <div className='flex items-center justify-center'>
           <h1
             className={`text-2xl font-semibold mr-4 text-white ${inconsolata.className}`}
@@ -83,7 +115,15 @@ export default function Carrousel() {
         <p className={`text-white ${inconsolata.className}`}>
           {slides[currentIndex].description}
         </p>
+        <div className='flex flex-row justify-center'>
+          {slides[currentIndex].technology.map((item) => {
+            return (
+              <Image className={classImage} src={item} alt='tailwind-icon' />
+            );
+          })}
+        </div>
       </div>
+
       <div>
         <Image
           className='z-20 m-2  absolute top-[20%] -translate-x-0 translate-y-[%50] left-1 cursor-pointer'
