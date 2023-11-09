@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <section
-        className='w-[500px] h-[668px] mx-auto my-4 grid grid-cols-4 gap-5 grid-rows-8
+        className='w-[500px] h-[668px] mx-auto my-auto grid grid-cols-4 gap-5 grid-rows-8
       lg:grid-cols-4 lg:grid-rows-4 lg:h-[700px] lg:w-[900px] '
       >
         <div className='flex items-center justify-center col-span-4 row-start-2 lg:col-span-2 lg:col-start-2 rounded-xl '>
