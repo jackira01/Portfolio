@@ -3,7 +3,7 @@ export default function CvDowload() {
     <div className='flex flex-col items-center justify-center align-middle select-none'>
       <div>
         <a
-          href="https://drive.google.com/file/d/1LHCBx3zJN2u02KwbkwTtp7f-Gyq1rLrS/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Fm7KVNmZGGo4j5ehn00UPHi7RRL7Jr3H/view?usp=sharing"
           download
           target="blank"
           className=' group-hover:bg-opacity-50 items-center cursor-pointer group relative flex flex-col gap-1.5 bg-opacity-80 dark:text-white text-slate-900 rounded-3xl hover:bg-opacity-70 transition font-semibold '
