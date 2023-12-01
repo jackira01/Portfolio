@@ -1,4 +1,4 @@
-import profileIcon from '@/public/img/profile.png';
+import profileIcon from '@/public/img/profile.webp';
 import reactIcon from '@/public/img/react.svg';
 import boostrapIcon from '@/public/img/bootstrap.svg';
 import javascriptIcon from '@/public/img/javascipt.svg';
@@ -12,9 +12,6 @@ import moonIcon from '@/public/img/moon.svg';
 import sunIcon from '@/public/img/sun.svg';
 import leftIcon from '@/public/img/left.svg';
 import rightIcon from '@/public/img/right.svg';
-import hbuyBg from '@/public/img/hbuy.png';
-import tallersagBg from '@/public/img/tallersag.png';
-import notesappBg from '@/public/img/yournotes.png';
 import nextIcon from '@/public/img/next.svg';
 import slackIcon from '@/public/img/slack.svg';
 import postgresqlIcon from '@/public/img/postgresql.svg';
@@ -37,9 +34,6 @@ export {
   sunIcon,
   leftIcon,
   rightIcon,
-  hbuyBg,
-  tallersagBg,
-  notesappBg,
   nextIcon,
   slackIcon,
   postgresqlIcon,

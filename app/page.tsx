@@ -17,7 +17,7 @@ export default function Home() {
           <Profile />
         </div>
 
-        <div className='flex items-center justify-center col-span-4 row-start-6 transition shadow-xl lg:h-auto h-72 lg:col-span-3 lg:row-start-1 bg-color-two-light dark:bg-color-one rounded-xl '>
+        <div className='flex items-center justify-center col-span-4 row-start-6 transition shadow-xl lg:h-auto h-72 lg:col-span-3 lg:row-start-1 bg-color-two-light dark:bg-color-one rounded-xl'>
           <AboutMe />
         </div>
 

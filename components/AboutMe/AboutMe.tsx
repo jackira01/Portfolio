@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 export default function AboutMe() {
   return (
     <div
-      className={`text-center select-none text-white px-7  ${inconsolata.className}`}
+      className={`text-center select-none text-black px-7 font-medium  ${inconsolata.className}`}
     >
       <h2 className='font-bold'>Acerca De mi.</h2>
       <Typewriter

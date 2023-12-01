@@ -27,12 +27,12 @@ export default function SoftSkills() {
 
       <div className='flex flex-col items-center justify-center row-start-2 transition bg-color-three-light dark:bg-color-two rounded-xl'>
         <span
-          className={`text-xl font-bold text-white ${inconsolata.className}`}
+          className={`text-xl font-bold  text-slate-900 ${inconsolata.className}`}
         >
           Ingles
         </span>
         <h1
-          className={`text-center text-white text-2xl font-bold ${inconsolata.className}`}
+          className={`text-center text-slate-900 text-2xl font-bold ${inconsolata.className}`}
         >
           A2
         </h1>

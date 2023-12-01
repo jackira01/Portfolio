@@ -6,7 +6,7 @@ export default function CvDowload() {
           href="https://drive.google.com/file/d/1LHCBx3zJN2u02KwbkwTtp7f-Gyq1rLrS/view?usp=sharing"
           download
           target="blank"
-          className=' group-hover:bg-opacity-50 items-center cursor-pointer group relative flex flex-col gap-1.5 bg-opacity-80 text-white rounded-3xl hover:bg-opacity-70 transition font-semibold '
+          className=' group-hover:bg-opacity-50 items-center cursor-pointer group relative flex flex-col gap-1.5 bg-opacity-80 dark:text-white text-slate-900 rounded-3xl hover:bg-opacity-70 transition font-semibold '
         >
           <svg
             xmlns='http://www.w3.org/2000/svg'
@@ -37,7 +37,7 @@ export default function CvDowload() {
             </g>
           </svg>
           Descarga Mi CV
-          <div className='absolute px-2 py-2 transition-opacity -translate-x-1/2 bg-black rounded-md shadow-lg opacity-0 -bottom-16 bg-opacity-70 left-1/2 group-hover:opacity-100'>
+          <div className='absolute px-2 py-2 transition-opacity -translate-x-1/2 dark:bg-black bg-slate-100 rounded-md shadow-lg opacity-0 -bottom-16 bg-opacity-70 left-1/2 group-hover:opacity-100'>
             Descargar
           </div>
         </a>
