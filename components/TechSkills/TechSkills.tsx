@@ -14,7 +14,7 @@ import {
   tailwindcssIcon,
 } from '../imagesImports/ImageImport';
 
-export default function SkillsComponent() {
+export default function TechSkills() {
   const classImage = 'w-10 m-3 duration-200 hover:scale-125';
   const classDiv = 'relative group flex justify-center';
   const classSpan =

@@ -1,8 +1,8 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import Image from 'next/image';
 import { inconsolata } from '@/app/font';
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
 import {
   boostrapIcon,
   javascriptIcon,
@@ -24,7 +24,7 @@ export default function Carrousel() {
       img: 'https://i.postimg.cc/8PHD9q3P/hbuy.png',
       title: 'H-Buy',
       description:
-        'Esta es una web desarrollada con el objetivo de ofrecer una variedad de productos a los usuarios para que puedan ver sus detalles , comentarios, poder comprarlos, ver su historial de vistas, entre otras funciones. ',
+        'Esta es una web desarrollada con el objetivo de ofrecer una variedad de productos a los usuarios para que puedan ver sus detalles, comentarios, poder comprarlos, ver su historial de vistas, entre otras funciones.',
       url: 'https://h-buy.netlify.app/',
       technology: [
         javascriptIcon,

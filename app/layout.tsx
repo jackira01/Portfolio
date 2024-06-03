@@ -1,5 +1,5 @@
-import 'tailwindcss/tailwind.css';
 import type { Metadata } from 'next';
+import 'tailwindcss/tailwind.css';
 
 export const metadata: Metadata = {
   title: 'Portafolio',
@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html className='dark' lang='es'>
       <body
-        className={` h-screen flex sm:items-center sm:justify-center bg-color-bg-light dark:bg-color-bg-dark transition`}
+        className={` bg-color-bg-light dark:bg-color-bg-dark transition`}
       >
         {children}
       </body>

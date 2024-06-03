@@ -1,17 +1,17 @@
-import ButtonDark from '../ButtonDark/ButtonDark';
 import { inconsolata } from '@/app/font';
-import LocalDate from '../LocalDate/LocalDate';
 import Image from 'next/image';
+import ButtonDark from '../ButtonDark/ButtonDark';
+import LocalDate from '../LocalDate/LocalDate';
 import { linkIcon } from '../imagesImports/ImageImport';
 
-export default function SoftSkills() {
+export default function Complement() {
   return (
     <>
-      <div className='flex items-center justify-center col-start-2 transition bg-color-one-light dark:bg-color-three rounded-xl'>
+      <div className='flex items-center justify-center row-start-1 transition bg-color-one-light dark:bg-color-three rounded-xl'>
         <ButtonDark />
       </div>
 
-      <div className='flex flex-col items-center justify-center col-start-2 transition bg-color-two-light dark:bg-color-two rounded-xl'>
+      <div className='flex flex-col items-center justify-center row-start-1 col-start-2 transition bg-color-two-light dark:bg-color-two rounded-xl'>
         <a
           href='https://github.com/jackira01/Portfolio'
           target='blank'
@@ -34,11 +34,11 @@ export default function SoftSkills() {
         <h1
           className={`text-center text-slate-900 text-2xl font-bold ${inconsolata.className}`}
         >
-          A2
+          B1
         </h1>
       </div>
 
-      <div className='flex flex-col items-center justify-center row-start-1 transition bg-color-four-light dark:bg-color-one rounded-xl'>
+      <div className='flex flex-col items-center justify-center row-start-2 transition bg-color-four-light dark:bg-color-one rounded-xl'>
         <LocalDate />
       </div>
     </>
