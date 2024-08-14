@@ -25,7 +25,7 @@ export default function Carrousel() {
       title: 'H-Buy',
       description:
         'Esta es una web desarrollada con el objetivo de ofrecer una variedad de productos a los usuarios para que puedan ver sus detalles, comentarios, poder comprarlos, ver su historial de vistas, entre otras funciones.',
-      url: 'https://h-buy.netlify.app/',
+      url: 'https://h-buy.vercel.app/',
       technology: [
         javascriptIcon,
         reactIcon,
@@ -40,7 +40,7 @@ export default function Carrousel() {
       title: 'Taller SAG',
       description:
         'Desarrollé con mi grupo de trabajo una aplicación web para una empresa conocida en su sector con el objetivo de que los clientes tengan la posibilidad de contactar e interactuar con la empresa desde la comodidad de sus casas.',
-      url: 'https://moonlit-fenglisu-651d57.netlify.app/',
+      url: 'https://taller-sag.vercel.app/',
       technology: [
         javascriptIcon,
         reactIcon,
@@ -55,7 +55,7 @@ export default function Carrousel() {
       title: 'Pokedex',
       description:
         'Desarrollé una aplicación que tenía como objetivo la creación de un Pokedex usando las tecnologías aprendidas en la cursada. Podras Filtrar, buscar por nombre, ver las caracteristicas del pokemon, entre otras funciones. ',
-      url: 'https://pi-pokedex.netlify.app/',
+      url: 'https://pi-pokewiki.vercel.app/',
       technology: [javascriptIcon, reactIcon, postgresqlIcon, nodeIcon],
     },
     {
