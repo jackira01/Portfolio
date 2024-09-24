@@ -9,7 +9,7 @@ export default function ContactMe() {
     <div className='flex flex-col'>
       <div>
         <h1
-          className={`select-none text-center text-xl mt-5 dark:text-cyan-50 text-slate-900 font-bold pb-5 ${inconsolata.className}`}
+          className={`select-none text-center text-xl mt-5 dark:text-cyan-50 text-slate-900 font-bold pb-5 ${inconsolata.className} md:mt-10`}
         >
           Contactame
         </h1>

@@ -36,10 +36,7 @@ export default function CvDowload() {
               </g>{' '}
             </g>
           </svg>
-          Descarga Mi CV
-          <div className='absolute px-2 py-2 transition-opacity -translate-x-1/2 dark:bg-black bg-slate-100 rounded-md shadow-lg opacity-0 -bottom-16 bg-opacity-70 left-1/2 group-hover:opacity-100'>
-            Descargar
-          </div>
+          Curriculum
         </a>
         <a></a>
       </div>

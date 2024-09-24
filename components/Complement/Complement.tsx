@@ -3,6 +3,7 @@ import Image from 'next/image';
 import ButtonDark from '../ButtonDark/ButtonDark';
 import LocalDate from '../LocalDate/LocalDate';
 import { linkIcon } from '../imagesImports/ImageImport';
+import CvDowload from '../CvDowload/CvDowload';
 
 export default function Complement() {
   return (
@@ -39,7 +40,7 @@ export default function Complement() {
       </div>
 
       <div className='flex flex-col items-center justify-center row-start-2 transition bg-color-four-light dark:bg-color-one rounded-xl'>
-        <LocalDate />
+        <CvDowload/>
       </div>
     </>
   );
