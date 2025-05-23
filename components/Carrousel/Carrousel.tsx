@@ -26,7 +26,7 @@ export default function Carrousel() {
       description:
         'El objetivo principal de esta App es mostrar un catalogo de productos. Sus funciones secundarias como la pagina dashboard, acerca de nosotros etc. dan la facil tanto al cliente como administrador de ver e interactuar de manera practica.',
       url: 'https://tecnologia-col.vercel.app/',
-      technology: [javascriptIcon, reactIcon tailwindcssIcon, mongodbIcon, nodeIcon],
+      technology: [javascriptIcon, reactIcon, tailwindcssIcon, mongodbIcon, nodeIcon],
     },
     {
       img: 'https://i.postimg.cc/8PHD9q3P/hbuy.png',
