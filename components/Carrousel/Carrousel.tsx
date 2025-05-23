@@ -20,6 +20,14 @@ export default function Carrousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const slides = [
+     {
+      img: 'https://i.postimg.cc/nc2XRrJW/tec-col.jpg',
+      title: 'Tecnologia col',
+      description:
+        'El objetivo principal de esta App es mostrar un catalogo de productos. Sus funciones secundarias como la pagina dashboard, acerca de nosotros etc. dan la facil tanto al cliente como administrador de ver e interactuar de manera practica.',
+      url: 'https://tecnologia-col.vercel.app/',
+      technology: [javascriptIcon, reactIcon tailwindcssIcon, mongodbIcon, nodeIcon],
+    },
     {
       img: 'https://i.postimg.cc/8PHD9q3P/hbuy.png',
       title: 'H-Buy',
@@ -65,7 +73,7 @@ export default function Carrousel() {
         'Esta aplicación se desarrolló para que el usuario tenga la posibilidad de crear, eliminar, editar y ver sus notas sin esfuerzo. Sus datos se almacenarán de forma segura y su contraseña se cifrará para garantizar la máxima seguridad del usuario.',
       url: 'https://node-js-app-lvba.onrender.com/',
       technology: [javascriptIcon, mongodbIcon, nodeIcon],
-    },
+    }
   ];
 
   const previewSlide = () => {
