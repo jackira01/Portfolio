@@ -63,7 +63,7 @@ export default function Carrousel() {
       title: 'Pokedex',
       description:
         'Desarrollé una aplicación que tenía como objetivo la creación de un Pokedex usando las tecnologías aprendidas en la cursada. Podras Filtrar, buscar por nombre, ver las caracteristicas del pokemon, entre otras funciones. ',
-      url: 'https://pi-pokewiki.vercel.app/',
+      url: 'https://pi-pokedex-peach.vercel.app/',
       technology: [javascriptIcon, reactIcon, postgresqlIcon, nodeIcon],
     },
     {
